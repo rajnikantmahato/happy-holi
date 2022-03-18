@@ -12,7 +12,7 @@
 		<video autoplay muted loop>
 			<source src="Video1.mp4" type="video/mp4">
 		</video>
-		<audio id="nyan" src="Music.mp3" preload="metadata" type="audio/mp3">
+		<audio autoplay loop id="nyan" src="Music.mp3" preload="metadata" type="audio/mp3">
         </audio>
         <!-- <a class="btn" id="nyan-btn">play / pause</a> -->
 		<div class="content">
@@ -32,7 +32,7 @@
 	<script>var nyan = document.getElementById('nyan');
 var nyanBtn = document.getElementById('nyan-btn');
 
-document.getElementById("nyan").play();
+// document.getElementById("nyan").play();
 // functin playPause(song){
 //    if (song.paused && song.currentTime >= 0 && !song.ended) {
 //       song.play();
