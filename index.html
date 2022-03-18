@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Happy Holi</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="section">
+		<video autoplay muted loop>
+			<source src="Video1.mp4" type="video/mp4">
+		</video>
+		<audio id="nyan" src="Music.mp3" preload="metadata" type="audio/mp3">
+        </audio>
+        <!-- <a class="btn" id="nyan-btn">play / pause</a> -->
+		<div class="content">
+			<h1>Happy&nbsp Holi</h1>
+			<p><b>May you have the most blessed holi festival than you ever had.
+                May it be full of fun,joy and love.
+                May you be as colorful as the festival itself or even more.
+                Lets all have lots of fun.
+                Wishing you and your family a very bright,colourful and joyful holi.
+                With love and best wishes</b></p>
+		</div>
+	</div>
+	<div class="credits">
+	     	<h3><span><b>Made by Rathin Gorai</b></span></h3>
+	     </div>
+
+	<script>var nyan = document.getElementById('nyan');
+var nyanBtn = document.getElementById('nyan-btn');
+
+document.getElementById("nyan").play();
+// functin playPause(song){
+//    if (song.paused && song.currentTime >= 0 && !song.ended) {
+//       song.play();
+//    } else {
+//       song.pause();
+//    }
+// }
+
+// function reset(btn, song){
+//    if(btn.classList.contains('playing')){
+//       btn.classList.toggle('playing');
+//    }
+//    song.pause();
+//    song.currentTime = 0;
+// }
+
+// function progress(btn, song){
+//    setTimeout(function(){
+//       var end = song.duration; 
+//       var current = song.currentTime;
+//       var percent = current/(end/100);
+  
+//       if(current==end){
+//          reset(btn, song);
+//       }
+      
+//       btn.style.boxShadow = "inset " + btn.offsetWidth * (percent/100) + "px 0px 0px 0px rgba(0,0,0,0.125)"
+   
+//       progress(btn, song);     
+//    }, 1000);
+// }
+
+// nyanBtn.addEventListener('click', function(){
+//    nyanBtn.classList.toggle('playing');
+//    playPause(nyan);
+//    progress(nyanBtn, nyan);
+// });
+
+</script>
+</body>
+</html>
